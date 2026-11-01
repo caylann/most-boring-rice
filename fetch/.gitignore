@@ -1,0 +1,7 @@
+fetch
+tests/shared
+debian/files
+debian/.debhelper/
+debian/fetch/
+debian/*.substvars
+debian/*.debhelper.log

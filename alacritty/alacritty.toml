@@ -1,0 +1,56 @@
+[env]
+WINIT_X11_SCALE_FACTOR = "1.3"
+
+[font]
+size = 12.5
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[window.padding]
+x = 5
+y = 7
+
+[font.offset]
+x = 0
+y = -4
+
+[cursor]
+style = "Beam"
+
+[colors.primary]
+foreground = "#c1c1c1"
+background = "#222222"
+
+[colors.normal]
+black = "#000000"
+red = "#121212"
+green = "#999999"
+yellow = "#ddeecc"
+blue = "#707070"
+magenta = "#c1c1c1"
+cyan = "#bababa"
+white = "#c1c1c1"
+
+[colors.bright]
+black = "#5f8787"
+red = "#aaaaaa"
+green = "#222222"
+yellow = "#333333"
+blue = "#aaaaaa"
+magenta = "#888888"
+cyan = "#99bbaa"
+white = "#444444"
