@@ -1,0 +1,13 @@
+
+//@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
+
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+@theme "/home/caylann/.config/rofi/themes/burzum.rasi"
+configuration {
+    show-icons: false;
+    terminal: "alacritty";
+    font: "JetBrainsMono Nerd Font 12";
+}
