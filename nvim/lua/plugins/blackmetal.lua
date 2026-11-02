@@ -82,13 +82,7 @@ return {
         -- Override default colors. Top-level keys apply to every variant; use the
         -- `dark` / `light` sub-tables to override a single variant, e.g.
         -- colors = { dark = { fg = "#f1f1f1" }, light = { fg = "#101010" } }
-        colors = {
-          dark = {
-            bg = "#222222",
-            line = "#222222",
-            visual = "#444444",
-          },
-        },
+        colors = {},
         highlights = {},
       })
       -- Convenience function that simply calls `:colorscheme <theme>` with the theme

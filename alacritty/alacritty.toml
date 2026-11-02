@@ -28,29 +28,33 @@ y = 7
 x = 0
 y = -4
 
-[cursor]
-style = "Beam"
-
+# Default colors
 [colors.primary]
-foreground = "#c1c1c1"
-background = "#222222"
+background = '#000000'
+foreground = '#f1f1f1'
 
+[colors.cursor]
+cursor = '#f1f1f1'
+text = '#000000'
+
+# Normal colors
 [colors.normal]
-black = "#000000"
-red = "#121212"
-green = "#999999"
-yellow = "#ddeecc"
-blue = "#707070"
-magenta = "#c1c1c1"
-cyan = "#bababa"
-white = "#c1c1c1"
+black = '#231c14'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#999999'
+cyan = '#ddeecc'
+white = '#f1f1f1'
 
+# Bright colors
 [colors.bright]
-black = "#5f8787"
-red = "#aaaaaa"
-green = "#222222"
-yellow = "#333333"
-blue = "#aaaaaa"
-magenta = "#888888"
-cyan = "#99bbaa"
-white = "#444444"
+black = '#505050'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#99bbaa'
+cyan = '#ddeecc'
+white = '#f1f1f1'
