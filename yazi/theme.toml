@@ -1,0 +1,14 @@
+[status]
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[indicator]
+padding = { open = "▐", close = "" }
+
+[flavor]
+use = ""
+
+[icon]
+conds = [
+  { "if" = "dir", text = "", fg = "#C1C1C1" }
+]
