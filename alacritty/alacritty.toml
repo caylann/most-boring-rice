@@ -1,23 +1,25 @@
+#general.import = ["~/.cache/wal/colors-alacritty.toml"]
+
 [env]
 WINIT_X11_SCALE_FACTOR = "1.3"
 
 [font]
-size = 12.5
+size = 13
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
-style = "Regular"
+family = "Terminess Nerd Font"
+style = "Bold"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Terminess Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Terminess Nerd Font"
 style = "Italic"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "Terminess Nerd Font"
 style = "Bold Italic"
 
 [window.padding]
@@ -28,33 +30,30 @@ y = 7
 x = 0
 y = -4
 
-# Default colors
 [colors.primary]
-background = '#000000'
-foreground = '#f1f1f1'
+background = "#070909"
+foreground = "#f5f5f5"
 
 [colors.cursor]
-cursor = '#f1f1f1'
-text = '#000000'
+text = "#070909"
+cursor = "#f5f5f5"
 
-# Normal colors
 [colors.normal]
-black = '#231c14'
-red = '#5f8787'
-green = '#c1c1c1'
-yellow = '#888888'
-blue = '#aaaaaa'
-magenta = '#999999'
-cyan = '#ddeecc'
-white = '#f1f1f1'
+black = "#070909"
+red = "#748A92"
+green = "#999EA0"
+yellow = "#B4C3C8"
+blue = "#D1D5D8"
+magenta = "#F7F8F7"
+cyan = "#FBFBFB"
+white = "#f5f5f5"
 
-# Bright colors
 [colors.bright]
-black = '#505050'
-red = '#5f8787'
-green = '#c1c1c1'
-yellow = '#888888'
-blue = '#aaaaaa'
-magenta = '#99bbaa'
-cyan = '#ddeecc'
-white = '#f1f1f1'
+black = "#ababab"
+red = "#748A92"
+green = "#999EA0"
+yellow = "#B4C3C8"
+blue = "#D1D5D8"
+magenta = "#F7F8F7"
+cyan = "#FBFBFB"
+white = "#f5f5f5"

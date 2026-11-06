@@ -3,11 +3,7 @@
   
   "logo": {
     "type": "auto",
-    "color": {
-        "1": "#5f8787",
-        "2": "#c1c1c1"
-    }
-  },
+  },  
   
   "modules": [
     "title",

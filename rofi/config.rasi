@@ -5,9 +5,10 @@
 
 //@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 
-@theme "/home/caylann/.config/rofi/themes/burzum.rasi"
+@theme "/home/caylann/.config/rofi/themes/custom.rasi"
+
 configuration {
     show-icons: false;
     terminal: "alacritty";
-    font: "JetBrainsMono Nerd Font 12";
+    font: "Terminess Nerd Font Bold 12";
 }

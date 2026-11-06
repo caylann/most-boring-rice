@@ -1,0 +1,22 @@
+[package]
+name = "colorpanes"
+version = "3.0.1"
+edition = "2021"
+description = "Panes in the 8 bright terminal colors with shadows of the respective darker color."
+categories = ["command-line-interface", "command-line-utilities"]
+keywords = ["color", "colorpanes", "colorpanels"]
+license = "LGPL-3.0"
+readme = "README.md"
+repository = "https://codeberg.org/papojari/colorpanes"
+authors = ["papojari <papojari-git.ovoid@aleeas.com"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.1.18", features = ["derive"] }
+recolored = "1.9.3"
+
+[[bin]]
+name = "colp"
+path = "src/main.rs"
+
